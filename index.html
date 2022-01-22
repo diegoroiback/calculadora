@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="calculator__container">
+            <div class="calculator__screen">
+                <p class="calculator__operation" id="operation"></p>
+                <p class="calculator__value" id ="value"></p>
+            </div>
+            <div class="calculator__buttons">
+                <div class="calculator__btn calculator__btn--light" id="reset">AC</div>
+                <div data-value="/" class="calculator__btn key calculator__btn--orange">÷</div>
+                <div data-value="7" class="calculator__btn key">7</div>
+                <div data-value="8" class="calculator__btn key">8</div>
+                <div data-value="9" class="calculator__btn key">9</div>
+                <div data-value="*" class="calculator__btn key calculator__btn--orange">x</div>
+                <div data-value="4" class="calculator__btn key">4</div>
+                <div data-value="5" class="calculator__btn key">5</div>
+                <div data-value="6" class="calculator__btn key">6</div>
+                <div data-value="-" class="calculator__btn key calculator__btn--orange">-</div>
+                <div data-value="1" class="calculator__btn key">1</div>
+                <div data-value="2" class="calculator__btn key">2</div>
+                <div data-value="3" class="calculator__btn key">3</div>
+                <div data-value="+" class="calculator__btn key calculator__btn--orange">+</div>
+                <div data-value="0" class="calculator__btn key calculator__btn--width">0</div>
+                <div data-value="." class="calculator__btn key">.</div>
+                <div class="calculator__btn calculator__btn--orange" id="total">=</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
